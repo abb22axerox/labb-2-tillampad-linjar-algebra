@@ -37,7 +37,7 @@ while 1==1
     end
     
     if menysvar == 4
-        k2 = input('Hur mycket vill du rotera figuren med?');
+        k2 = input('Hur mycket vill du skjuva figuren med?');
         skjuvningmatris = [1,k2;0,1];
         PlotFigure(skjuvningmatris * X)
     end
